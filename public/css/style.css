@@ -1,0 +1,108 @@
+
+/* Sticky footer styles */
+html{position: relative; min-height: 100%}
+.sticky-footer{ position: absolute; bottom: 0; width: 100%}
+
+/* carousel */
+.carousel-inner { max-width: 1140px; margin: auto}
+.carousel-inner>.item{ max-height: 600px}
+.carousel-caption{ background-color: rgba(255,255,255,0.5); border-radius: 90px}
+.carousel-caption h1{color: yellow; font-size: 46px}
+
+.wrap-content{text-align: center}
+.wrap-content h2{font-size: 40px}
+
+/* map */
+#map-wrap{width: 100%; height: 400px}
+
+/* shop categories page */
+.cat {min-height: 612px; margin-top: 30px; display: block; margin-bottom: 30px; padding: 4px; background-color: #fff; border: 1px solid #ddd}
+.cat:nth-child(3) { margin-right:0}
+.cat img{ display: block; width: 100%; margin-right: auto; margin-left: auto}
+.cat .cat-info { padding: 9px; color: #333; text-align: center}
+.cat .cat-info h2{ height: 40px; overflow: hidden; margin-top: 10px; margin-bottom: 10px}
+.cat .cat-info p.btn-group{ margin-bottom: 0}
+
+/* shop products div */
+.prod-div { margin-bottom: 20px}
+.prod-div img{ background-color: #2fa4e7}
+
+/* checkout */
+.quantityField {text-align: center}
+
+/* forms */
+.form-wrapper{ max-width: 380px; margin-top: 10px}
+
+/* CMS */
+#menu-toggle{margin-bottom: 10px}
+.sp-btn-delete,.sp-btn-edit{cursor: pointer}
+.sp-font{ font-size: 20px}
+
+/* Main content */
+.main {padding: 20px}
+.main .page-header { margin-top: 0}
+#copyright{background-color: #033c73; padding: 10px}
+.column{text-align: left}
+.column h4{color: #fff; border-bottom: 1px solid #fff}
+
+/* order-info */
+.table-wrap{ max-width: 600px; margin-top: 10px}
+
+/* Placeholder dashboard ideas */
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/* RESPONSIVE CSS */
+@media screen 
+and (max-width : 528px) {
+  .carousel-caption{
+    padding-bottom: 0px;
+    background-color: transparent;   
+  }
+  .carousel-caption h1{
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .carousel-caption p{
+    margin-bottom: 5px;
+  }
+  .carousel-caption .btn-lg{
+  padding: 2px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  }
+  .carousel-indicators{
+    bottom: -6px;
+  }
+}
+
+@media screen and (max-width: 992px){ 
+  body{
+    margin-bottom: 412px;
+  }  
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  } 
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
